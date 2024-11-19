@@ -136,7 +136,7 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/acee1a46-479c-490c-8207-94438f1f0551)
 
 
-- Follow the loging procedure, by providing the code and provide your Azure account credentials. At the end you will be successfully loged in. Now you need to wait up to 10 minutes before abling to continue to the next step
+- Follow the loging procedure, by providing the code and provide your Azure account credentials. At the end you will be successfully loged in. Now you need to wait up to 10 minutes before being able to continue with the next step.
 
 
 ![image](https://github.com/user-attachments/assets/e8ae8572-8439-457f-ae56-0af14d1ca730)
