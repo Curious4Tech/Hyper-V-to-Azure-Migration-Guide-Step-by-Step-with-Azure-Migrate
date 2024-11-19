@@ -49,6 +49,8 @@ Before starting, ensure you have:
     .  **Connectivity method**
 - Click on **Create** to finish your project creation
 
+
+
   ![image](https://github.com/user-attachments/assets/e2c7c0eb-7bb0-4a8b-a442-f61a5d3e0f0d)
 
 
@@ -59,7 +61,8 @@ Before starting, ensure you have:
 - **Download the Appliance**: Download the Azure Migrate appliance from the Azure portal.
 
 
-  ![image](https://github.com/user-attachments/assets/02932575-38e1-4a43-b6b4-df9512e01b96)
+
+   ![image](https://github.com/user-attachments/assets/02932575-38e1-4a43-b6b4-df9512e01b96)
 
 
 - Discover section under **"Azure Migrate | Servers, databases, and web apps**." It provides a guide for discovering on-premises environments using the Azure Migrate appliance. Here are the key steps shown:
@@ -71,6 +74,7 @@ Before starting, ensure you have:
   . **Download Appliance**: There are options to download either a .VHD file (12GB) or a .zip file (500MB), with the download (here am downloading .zip, so I will use powershell for the installation process).
 
 
+
 ![image](https://github.com/user-attachments/assets/fbe688d9-e459-48f5-89c8-bd0dfc00247f)
 
 
@@ -80,16 +84,19 @@ Before starting, ensure you have:
    . Unzip the file:
 
 
+
 ![image](https://github.com/user-attachments/assets/953e1376-35e1-4e79-a175-0612854e4d1d)
 
 
   . Open the powershell and move to the path where you unziped the appliance installation folder and run: **`.\AzureMigrateInstaller.ps1`**
 
 
+
 ![image](https://github.com/user-attachments/assets/aa6487dd-8237-4c87-b922-24a1b0441d76)
 
   
 - **Register the Appliance**: Register the appliance with your Azure Migrate project.
+
 
 
 ![image](https://github.com/user-attachments/assets/78d180e5-c81e-455b-ae8c-a91fbb32f147)
@@ -99,13 +106,16 @@ Before starting, ensure you have:
   . After successfully installation copy the url provided and  paste it on the web browser and then continue the procedure
 
 
+
 ![image](https://github.com/user-attachments/assets/3d7f107c-5a01-4c34-afa0-3e0f71f6dc59)
 
 
-### Discover and Assess Hyper-V VMs
+### Set up prerequisites
+
 - **Discover VMs**: Use the Azure Migrate appliance to discover the Hyper-V hosts and VMs.
 
   . Wait for the pre requisites to commance
+
 
 
 ![image](https://github.com/user-attachments/assets/04581157-ddfb-4702-b4ab-ad1c395c8cad)
@@ -142,10 +152,51 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/e8ae8572-8439-457f-ae56-0af14d1ca730)
 
 
-- **Create an Assessment**: Create an assessment to review the readiness and cost of migrating the VMs to Azure.
+### Manage credentials and discovery sources
 
-### Install Required Agents
-- **Install Mobility Service**: Install the Mobility Service on the VMs to enable deeper discovery and dependency analysis.
+- **Add credentials**: Click on **Add credentials** and provide your server admin credeantials and the click on **Save**.
+
+    . **Source type** : Choose **`Hyper-V host/ Clusters`**
+    . **Friendly name** : Host name where you Hyper-V is install
+    . **Username** : Administrator
+    . **Password** : administrator password
+
+
+
+![image](https://github.com/user-attachments/assets/37e65aa8-283f-42f0-a68b-31da6644c2ea)
+
+
+- **Add Discovery** : Click on **Add discovery**, then clcik on **Add single item**. Now provide the following informations needed and then clcik on **Save**.
+  
+    . **Discovery soure** : Choose **`Hyper-V host/ Clusters`**
+    . **IP address/ FQDN** : your server domain name or your server Ip address
+    . **Map credentrials** : Choose your previous server added
+
+
+![image](https://github.com/user-attachments/assets/cdf3f3c9-a388-4454-b105-e222b447ff5d)
+
+
+- Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
+
+
+![image](https://github.com/user-attachments/assets/9cf8ec6c-31ac-49d0-bd59-6b1f2752cc08)
+
+
+- You can also do the same for the sql server but it is optional for this demo.
+
+
+
+![image](https://github.com/user-attachments/assets/437164f4-3d71-4e4f-b16e-bdfe615f6b04)
+
+
+
+- Now you can click on **Start discovery** to start the discory.
+
+
+
+![image](https://github.com/user-attachments/assets/1c4a4195-0d3a-4ea5-adcb-1f30943fae0c)
+
+
 
 ### Enable Replication
 - **Enable Replication**: Enable replication for the VMs to start copying data to Azure.
