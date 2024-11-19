@@ -190,15 +190,58 @@ Before starting, ensure you have:
 
 
 
-- Now you can click on **Start discovery** to start the discory.
+- Now you can click on **Start discovery** to start the discovery.
 
 
 
 ![image](https://github.com/user-attachments/assets/1c4a4195-0d3a-4ea5-adcb-1f30943fae0c)
 
 
+- Now you need to wait untill the discovery to finish. After a successfully finished, you can go back to the Azure portal for the rest.
 
-### Enable Replication
+
+  ![image](https://github.com/user-attachments/assets/e679932e-63ed-47f0-8dfe-91022bbf4cf4)
+
+
+
+
+### Assess Hyper-V VMs
+
+- Go back to the Azure portal, then to **Azure migrate** and then your project to see the discovery.
+
+
+![image](https://github.com/user-attachments/assets/9e784f96-e0d4-4100-9bf9-dc8bd987e11c)
+
+
+- As indicated, you will click on **Assess** and choose **Azure VM** to start assessing.
+
+
+
+![image](https://github.com/user-attachments/assets/19ecc78d-f51e-455b-8ff7-3aeb74f56b98)
+
+
+- You need to create a group for you assessment, on the basics tab, click on **edit**
+
+
+  ![image](https://github.com/user-attachments/assets/82ccf697-7933-42a1-a42c-72da723b37b9)
+
+
+- In the new windows that is going to open, choose the right detail informations for your server performance and then click on **Save**.
+
+
+
+![image](https://github.com/user-attachments/assets/c27f5b41-7010-496e-9993-088f8486b941)
+
+
+- Slected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked.
+
+
+
+  ![image](https://github.com/user-attachments/assets/b0783606-d062-456e-ac68-70ac9ba12e01)
+
+
+
+
 - **Enable Replication**: Enable replication for the VMs to start copying data to Azure.
 - **Monitor Progress**: Monitor the replication progress to ensure everything is running smoothly.
 
