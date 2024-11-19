@@ -38,7 +38,7 @@ Before starting, ensure you have:
 
 
 
-  ![image](https://github.com/user-attachments/assets/06703932-564d-467d-bd69-ed5fe3e2d643)
+![image](https://github.com/user-attachments/assets/06703932-564d-467d-bd69-ed5fe3e2d643)
 
 
 - Provide detailled information
@@ -51,7 +51,7 @@ Before starting, ensure you have:
 
 
 
-  ![image](https://github.com/user-attachments/assets/e2c7c0eb-7bb0-4a8b-a442-f61a5d3e0f0d)
+![image](https://github.com/user-attachments/assets/e2c7c0eb-7bb0-4a8b-a442-f61a5d3e0f0d)
 
 
 
@@ -62,7 +62,7 @@ Before starting, ensure you have:
 
 
 
-   ![image](https://github.com/user-attachments/assets/02932575-38e1-4a43-b6b4-df9512e01b96)
+![image](https://github.com/user-attachments/assets/02932575-38e1-4a43-b6b4-df9512e01b96)
 
 
 - Discover section under **"Azure Migrate | Servers, databases, and web apps**." It provides a guide for discovering on-premises environments using the Azure Migrate appliance. Here are the key steps shown:
@@ -200,8 +200,7 @@ Before starting, ensure you have:
 - Now you need to wait untill the discovery to finish. After a successfully finished, you can go back to the Azure portal for the rest.
 
 
-  ![image](https://github.com/user-attachments/assets/e679932e-63ed-47f0-8dfe-91022bbf4cf4)
-
+![image](https://github.com/user-attachments/assets/e679932e-63ed-47f0-8dfe-91022bbf4cf4)
 
 
 
@@ -220,10 +219,10 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/19ecc78d-f51e-455b-8ff7-3aeb74f56b98)
 
 
-- You need to create a group for you assessment, on the basics tab, click on **edit**
+- You need to create a group for you assessment, on the basics tab, click on **edit** just beside **assessment settings**
 
 
-  ![image](https://github.com/user-attachments/assets/82ccf697-7933-42a1-a42c-72da723b37b9)
+![image](https://github.com/user-attachments/assets/82ccf697-7933-42a1-a42c-72da723b37b9)
 
 
 - In the new windows that is going to open, choose the right detail informations for your server performance and then click on **Save**.
@@ -233,25 +232,20 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/c27f5b41-7010-496e-9993-088f8486b941)
 
 
-- Slected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked.
+- Slected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
 
 
 
   ![image](https://github.com/user-attachments/assets/b0783606-d062-456e-ac68-70ac9ba12e01)
 
 
+- Verify and create assessment : Review to see if everything is correct before clicking on **Review + create assessment**. If there is any change you want to make, you can clcik on **Previous**.
 
 
-- **Enable Replication**: Enable replication for the VMs to start copying data to Azure.
-- **Monitor Progress**: Monitor the replication progress to ensure everything is running smoothly.
 
-### Perform Test Migration
-- **Test Migration**: Perform a test migration to ensure everything works as expected without any data loss.
-- **Review Results**: Review the test migration results and make any necessary adjustments.
+![image](https://github.com/user-attachments/assets/c257f44e-c8a7-4874-a389-aa227ba7699e)
 
-### Perform Final Migration
-- **Final Migration**: Once the test migration is successful, perform the final migration with zero data loss.
-- **Verify Network and DNS Settings**: Verify the network and DNS settings of the migrated VMs in Azure.
+
 
 ## Post-Migration Tasks
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
