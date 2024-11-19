@@ -246,13 +246,30 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/c257f44e-c8a7-4874-a389-aa227ba7699e)
 
 
+- After successfully creation your server is ready as you can
+
+
+
+![image](https://github.com/user-attachments/assets/e9a62277-5a88-46b6-8c23-66176766d996)
+
+
+- If you clcik on the newly created group you should see something like this.
+
+
+![image](https://github.com/user-attachments/assets/bbb47dce-9263-44e7-aac0-1f9d0bc1acfe)
+
+
+
 
 ## Post-Migration Tasks
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
-
-
-  
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
+
+
+
+![image](https://github.com/user-attachments/assets/6cf2e4ac-da4a-4624-a675-548f9fb575aa)
+
+
 
 ## Additional Resources
 - [Azure Migrate Documentation](https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-hyper-v)
