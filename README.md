@@ -225,18 +225,18 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/82ccf697-7933-42a1-a42c-72da723b37b9)
 
 
-- In the new windows that is going to open, choose the right detail informations for your server performance and then click on **Save**.
+- In the new windows that is going to open, choose the right detail informations for your server including location , size, performance, storage  and so on and  then click on **Save**.
 
 
 
 ![image](https://github.com/user-attachments/assets/c27f5b41-7010-496e-9993-088f8486b941)
 
 
-- Slected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
+- Selected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
 
 
 
-  ![image](https://github.com/user-attachments/assets/b0783606-d062-456e-ac68-70ac9ba12e01)
+![image](https://github.com/user-attachments/assets/b0783606-d062-456e-ac68-70ac9ba12e01)
 
 
 - Verify and create assessment : Review to see if everything is correct before clicking on **Review + create assessment**. If there is any change you want to make, you can clcik on **Previous**.
@@ -249,6 +249,9 @@ Before starting, ensure you have:
 
 ## Post-Migration Tasks
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
+
+
+  
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
 ## Additional Resources
