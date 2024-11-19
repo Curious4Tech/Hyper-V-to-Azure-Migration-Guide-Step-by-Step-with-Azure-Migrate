@@ -8,125 +8,63 @@ This guide provides a detailed step-by-step process for migrating a server from 
 
 ---
 
-## **Table of Contents**
-- [Prerequisites](#prerequisites)
-- [Step 1: Pre-Migration Planning](#step-1-pre-migration-planning)
-- [Step 2: Set Up Azure Infrastructure](#step-2-set-up-azure-infrastructure)
-- [Step 3: Prepare for Migration](#step-3-prepare-for-migration)
-- [Step 4: Perform the Migration](#step-4-perform-the-migration)
-- [Step 5: Post-Migration Configuration](#step-5-post-migration-configuration)
-- [Step 6: Decommission On-Premises VM](#step-6-decommission-on-premises-vm)
-- [Additional Resources](#additional-resources)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3. [Step-by-Step Guide](#step-by-step-guide)
+   - [Prepare Azure](#prepare-azure)
+   - [Download and Configure the Azure Migrate Appliance](#download-and-configure-the-azure-migrate-appliance)
+   - [Discover and Assess Hyper-V VMs](#discover-and-assess-hyper-v-vms)
+   - [Install Required Agents](#install-required-agents)
+   - [Enable Replication](#enable-replication)
+   - [Perform Test Migration](#perform-test-migration)
+   - [Perform Final Migration](#perform-final-migration)
+4. [Post-Migration Tasks](#post-migration-tasks)
+5. [Additional Resources](#additional-resources)
 
----
+## Introduction
+This guide provides detailed steps to migrate a server from Hyper-V to Azure using Azure Migrate.
 
-## **Prerequisites**
-Before starting the migration, ensure you have:
-1. **Azure Subscription**: An active Azure account with sufficient quotas for VMs, storage, and networking.
-2. **Backup**: A full backup of your Hyper-V virtual machines.
-3. **Azure Migrate Tool**: Installed and configured for your environment.
-4. **Permissions**: Sufficient access to Azure and Hyper-V environments.
+## Prerequisites
+Before starting, ensure you have:
+- An active Azure subscription.
+- Permissions to create VMs and write to Azure managed disks.
+- Access to the Hyper-V host and VMs you want to migrate.
 
----
+## Step-by-Step Guide
 
-## **Step 1: Pre-Migration Planning**
+### Prepare Azure
+- **Create an Azure Migrate project**: In the Azure portal, create a new project under the "Migration and Modernization" tool.
+- **Verify Permissions**: Ensure your Azure account has the necessary permissions.
 
-### **1.1 Assess Your Environment**
-- **Inventory**: Identify the servers you want to migrate.
-- **Dependencies**: Analyze application dependencies and network configurations.
-- **Compatibility**: Ensure OS and applications are supported in Azure.
+### Download and Configure the Azure Migrate Appliance
+- **Download the Appliance**: Download the Azure Migrate appliance from the Azure portal.
+- **Install the Appliance**: Install the appliance on a Hyper-V host.
+- **Register the Appliance**: Register the appliance with your Azure Migrate project.
 
-### **1.2 Estimate Azure Resources**
-- Use the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) to estimate costs.
-- Choose appropriate VM sizes based on current server performance.
+### Discover and Assess Hyper-V VMs
+- **Discover VMs**: Use the Azure Migrate appliance to discover the Hyper-V hosts and VMs.
+- **Create an Assessment**: Create an assessment to review the readiness and cost of migrating the VMs to Azure.
 
-### **1.3 Backup Data**
-- Perform a full backup of your Hyper-V VMs to prevent data loss.
+### Install Required Agents
+- **Install Mobility Service**: Install the Mobility Service on the VMs to enable deeper discovery and dependency analysis.
 
----
+### Enable Replication
+- **Enable Replication**: Enable replication for the VMs to start copying data to Azure.
+- **Monitor Progress**: Monitor the replication progress to ensure everything is running smoothly.
 
-## **Step 2: Set Up Azure Infrastructure**
+### Perform Test Migration
+- **Test Migration**: Perform a test migration to ensure everything works as expected without any data loss.
+- **Review Results**: Review the test migration results and make any necessary adjustments.
 
-### **2.1 Prepare Azure Resources**
-- Create an **Azure Resource Group** to organize resources.
-- Set up a **Virtual Network (VNet)** with necessary subnets and **Network Security Groups (NSGs)**.
+### Perform Final Migration
+- **Final Migration**: Once the test migration is successful, perform the final migration with zero data loss.
+- **Verify Network and DNS Settings**: Verify the network and DNS settings of the migrated VMs in Azure.
 
-### **2.2 Configure Networking**
-- Plan connectivity options such as VPN or ExpressRoute for seamless access.
+## Post-Migration Tasks
+- **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
+- **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
----
+## Additional Resources
+- [Azure Migrate Documentation](https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-hyper-v)
 
-## **Step 3: Prepare for Migration**
-
-### **3.1 Set Up Azure Migrate**
-1. Open **Azure Portal**.
-2. Create a new Azure Migrate project under **Servers**.
-3. Add the **Server Migration Tool**.
-
-### **3.2 Install Azure Migrate Appliance**
-1. Download the setup file from Azure Migrate.
-2. Install the appliance on a Hyper-V host.
-3. Register the appliance with your Azure Migrate project.
-
-### **3.3 Discover Hyper-V VMs**
-- Discover Hyper-V VMs using the Azure Migrate appliance.
-- Validate compatibility and resolve any issues.
-
----
-
-## **Step 4: Perform the Migration**
-
-### **4.1 Start Migration**
-1. Select the discovered Hyper-V VMs in Azure Migrate.
-2. Configure replication settings:
-   - Target Azure subscription.
-   - Resource group, storage, and VM size.
-3. Initiate the replication process.
-
-### **4.2 Monitor and Test Migration**
-- Monitor replication progress in the Azure Migrate portal.
-- Perform a **Test Migration** to ensure functionality.
-
-### **4.3 Complete the Migration**
-- After successful testing:
-  - Stop the on-premises VM.
-  - Perform the **Final Failover** to migrate the VM to Azure.
-
----
-
-## **Step 5: Post-Migration Configuration**
-
-### **5.1 Validate the Azure VM**
-- Verify VM functionality, network settings, and application performance.
-
-### **5.2 Enable Backup**
-- Use **Azure Backup** for disaster recovery.
-
-### **5.3 Optimize Resources**
-- Monitor performance using **Azure Monitor**.
-- Adjust VM sizes or storage if needed.
-
-### **5.4 Secure the VM**
-- Enable **Azure Update Management** for patching.
-- Configure security policies using **Azure Security Center**.
-
----
-
-## **Step 6: Decommission On-Premises VM**
-- Confirm the Azure VM's functionality over a defined period.
-- Decommission the Hyper-V VM to free resources.
-
----
-
-## **Additional Resources**
-- [Azure Migrate Documentation](https://learn.microsoft.com/en-us/azure/migrate/migrate-overview)
-- [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
-- [Azure Security Center](https://azure.microsoft.com/en-us/services/defender-for-cloud/)
-
----
-
-## **Contributing**
-Feel free to contribute to this guide by submitting a pull request. Suggestions and improvements are always welcome!
-
-## **License**
-This guide is licensed under the MIT License.
