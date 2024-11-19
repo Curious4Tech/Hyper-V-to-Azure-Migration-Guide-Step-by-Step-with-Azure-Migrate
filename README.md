@@ -130,7 +130,7 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/4aba956b-7358-4a89-ad64-0fc44429109a)
 
 
-- Click on **copy and login** on the new pop-pup windows that is gonna open.
+- Click on **copy code and Login** on the new pop-pup windows that is gonna open.
 
 
 ![image](https://github.com/user-attachments/assets/acee1a46-479c-490c-8207-94438f1f0551)
