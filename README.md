@@ -287,12 +287,28 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/bf37a599-dea3-421c-83f5-f1897f7666da)
 
 
-- Now provide all the infos depending on your needs.
+- Now provide all the infos depending on your needs. And clcik on **Build Buisiness case**. After that you have to wait for some minutes before your plan to be ready.
 
 
-![image](https://github.com/user-attachments/assets/d16c8c03-ba89-454d-81ab-dbae381828ca)
+![image](https://github.com/user-attachments/assets/a3fcaf57-b8e8-431f-8674-ebfb108ac30a)
 
-## Post-Migration Tasks
+
+- Plan successfully built
+
+
+![image](https://github.com/user-attachments/assets/68fb1922-e1ff-4cb7-9ce6-5260fd182924)
+
+
+- Migrate, by click on migrate, 
+
+
+
+- 
+
+![image](https://github.com/user-attachments/assets/dcf71724-c8ff-4d4e-9265-427dc37e63f7)
+
+
+
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
