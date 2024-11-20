@@ -113,19 +113,20 @@ Before starting, ensure you have:
 
 - **Discover VMs**: Use the Azure Migrate appliance to discover the Hyper-V hosts and VMs.
 
-  . Wait for the pre requisites to commence
+  . Accept the terms of use
+
+
+![image](https://github.com/user-attachments/assets/16e1527b-a9f4-4ca2-a219-60749c2a5fb1)
+
+
+  . Provide your project key, the key you have created before and then click on **Verify**. You have to wait for some minutes (up to 5 minutes).
 
 
 
-![image](https://github.com/user-attachments/assets/04581157-ddfb-4702-b4ab-ad1c395c8cad)
+![image](https://github.com/user-attachments/assets/f5aa8357-eeb8-48dd-ae7e-50a3c66facae)
 
 
-  . Provide your project key, the key you have created before and then click on **Verify**. You have to wait for some minutes.
-
-
-![image](https://github.com/user-attachments/assets/8622f75b-bb10-4b08-880c-908c270189d7)
-
-
+  
   . After some minutes, you will have a pop-pup, just clcik **Refresh**
 
 
