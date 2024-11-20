@@ -98,23 +98,21 @@ Before starting, ensure you have:
 - **Register the Appliance**: Register the appliance with your Azure Migrate project.
 
 
-
-![image](https://github.com/user-attachments/assets/78d180e5-c81e-455b-ae8c-a91fbb32f147)
-
-
 - Follow the powershell prompt and I read cearfully to make the right choices.
-  . After successfully installation copy the url provided and  paste it on the web browser and then continue the procedure
+
+- After successfully installation copy the url provided and  paste it on the web browser and then continue the procedure
 
 
 
-![image](https://github.com/user-attachments/assets/3d7f107c-5a01-4c34-afa0-3e0f71f6dc59)
+![image](https://github.com/user-attachments/assets/a621e3c9-7b4b-4904-891d-9c9a761f48cd)
+
 
 
 ### Set up prerequisites
 
 - **Discover VMs**: Use the Azure Migrate appliance to discover the Hyper-V hosts and VMs.
 
-  . Wait for the pre requisites to commance
+  . Wait for the pre requisites to commence
 
 
 
