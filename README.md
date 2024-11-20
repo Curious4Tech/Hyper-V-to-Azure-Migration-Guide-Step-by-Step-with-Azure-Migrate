@@ -143,7 +143,8 @@ Before starting, ensure you have:
 - Click on **copy code and Login** on the new pop-pup windows that is gonna open.
 
 
-![image](https://github.com/user-attachments/assets/acee1a46-479c-490c-8207-94438f1f0551)
+
+![image](https://github.com/user-attachments/assets/68515337-c031-4080-9abb-963fa71cc88f)
 
 
 - Follow the loging procedure, by providing the code and provide your Azure account credentials. At the end you will be successfully loged in. Now you need to wait up to 10 minutes before being able to continue with the next step.
