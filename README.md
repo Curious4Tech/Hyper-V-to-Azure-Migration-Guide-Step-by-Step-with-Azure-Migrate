@@ -119,7 +119,7 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/16e1527b-a9f4-4ca2-a219-60749c2a5fb1)
 
 
-  . Provide your project key, the key you have created before and then click on **Verify**. You have to wait for some minutes (up to 5 minutes).
+  . Provide your project key, the key you have created before in the Azure portal and then click on **Verify**. You have to wait for some minutes (up to 5 minutes).
 
 
 
