@@ -69,7 +69,7 @@ Before starting, ensure you have:
 
   . **Select Virtualization**: The servers are virtualized, with **"Yes, with Hyper-V**" chosen.
 
-  . **Generate Project Key**: An appliance named **"mykey"** , and then click on **generate key** to generate a new key and then copy it, you will need that later.
+  . **Generate Project Key**: An appliance named **"mykey"** , and then click on **generate key** to generate a new key and then copy and save it, you will need it later.
 
   . **Download Appliance**: There are options to download either a .VHD file (12GB) or a .zip file (500MB), with the download (here am downloading .zip, so I will use powershell for the installation process).
 
