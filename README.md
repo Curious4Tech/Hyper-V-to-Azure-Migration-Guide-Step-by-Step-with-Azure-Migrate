@@ -305,10 +305,20 @@ Before starting, ensure you have:
 
 
 
-- 
-
 ![image](https://github.com/user-attachments/assets/dcf71724-c8ff-4d4e-9265-427dc37e63f7)
 
+
+- Provide all the informations based on your need and then click on **Create a resources**
+
+
+
+![image](https://github.com/user-attachments/assets/268819da-9c24-4566-9382-069689405747)
+
+
+- Now download these two files
+
+
+![image](https://github.com/user-attachments/assets/f546f10f-0693-4831-958a-7c492402dd5b)
 
 
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
