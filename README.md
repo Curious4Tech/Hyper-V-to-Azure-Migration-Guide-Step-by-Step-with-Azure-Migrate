@@ -236,7 +236,8 @@ Before starting, ensure you have:
 - You need to create a group for you assessment, on the basics tab, click on **edit** just beside **assessment settings**
 
 
-![image](https://github.com/user-attachments/assets/82ccf697-7933-42a1-a42c-72da723b37b9)
+![image](https://github.com/user-attachments/assets/f928186d-d2dc-414e-bb39-2273e5902eb3)
+
 
 
 - In the new windows that is going to open, choose the right detail informations for your server including location , size, performance, storage  and so on and  then click on **Save**.
