@@ -276,9 +276,8 @@ Before starting, ensure you have:
 - If you clcik on the newly created group you should see something like this.
 
 
-![image](https://github.com/user-attachments/assets/bbb47dce-9263-44e7-aac0-1f9d0bc1acfe)
 
-
+![image](https://github.com/user-attachments/assets/af48a175-2ab7-405c-a792-cfd7f33ad4d4)
 
 
 ## Post-Migration Tasks
