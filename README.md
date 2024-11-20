@@ -160,7 +160,7 @@ Before starting, ensure you have:
 
     . **Source type** : Choose **`Hyper-V Host/ Cluster`**
   
-    . **Friendly name** : Host name where you Hyper-V is installed
+    . **Friendly name** : Choose a name you want (e;g: **HypervServer**) it doesn't have obligatory to be the name of the host on which you Hyper-V is installed.
   
     . **Username** : Admin username (e.g; **Administrator**) of hsost machine where hyper-V server is installed
   
@@ -168,7 +168,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/37e65aa8-283f-42f0-a68b-31da6644c2ea)
+![image](https://github.com/user-attachments/assets/defd3650-49f0-4c5a-bcde-29748fde80d9)
+
 
 
 - **Add Discovery** : Click on **Add discovery**, then clcik on **Add single item**. Now provide the following informations needed and then clcik on **Save**.
