@@ -261,7 +261,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/c257f44e-c8a7-4874-a389-aa227ba7699e)
+![image](https://github.com/user-attachments/assets/554a4c1f-53c6-4ada-88a7-5dc4adc72217)
+
 
 
 - After successfully creation your server is ready as you can
