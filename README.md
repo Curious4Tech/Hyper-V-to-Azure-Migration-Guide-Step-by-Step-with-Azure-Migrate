@@ -253,7 +253,7 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/b0783606-d062-456e-ac68-70ac9ba12e01)
+![image](https://github.com/user-attachments/assets/73e2d073-f2b3-432a-a115-9b4b9ef3b64e)
 
 
 - Verify and create assessment : Review to see if everything is correct before clicking on **Review + create assessment**. If there is any change you want to make, you can clcik on **Previous**.
