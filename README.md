@@ -341,6 +341,14 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/9645a3ee-280c-421b-9c7f-48a0b811ea31)
 
 
+
+- Go back to Azure portal, you should see your server connected, now click on **Finalize registration**
+
+
+
+![image](https://github.com/user-attachments/assets/47cc1dd9-7bfa-451d-a83a-4d52d980e9c2)
+
+
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
@@ -348,12 +356,6 @@ Before starting, ensure you have:
 
 ![image](https://github.com/user-attachments/assets/6cf2e4ac-da4a-4624-a675-548f9fb575aa)
 
-
-- Go back to Azure portal, you should see your server connected, now click on **Finalize registration**
-
-
-
-![image](https://github.com/user-attachments/assets/47cc1dd9-7bfa-451d-a83a-4d52d980e9c2)
 
 
 
