@@ -221,7 +221,9 @@ Before starting, ensure you have:
 - Go back to the Azure portal, then to **Azure migrate** and then your project to see the discovery.
 
 
-![image](https://github.com/user-attachments/assets/9e784f96-e0d4-4100-9bf9-dc8bd987e11c)
+
+![image](https://github.com/user-attachments/assets/aacedbaf-a58f-482b-a30d-ef6d12b57219)
+
 
 
 - As indicated, you will click on **Assess** and choose **Azure VM** to start assessing.
