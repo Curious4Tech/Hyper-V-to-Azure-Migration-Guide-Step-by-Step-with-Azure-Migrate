@@ -161,9 +161,9 @@ Before starting, ensure you have:
   
     . **Friendly name** : Host name where you Hyper-V is installed
   
-    . **Username** : Administrator
+    . **Username** : Admin username (e.g; **Administrator**) of hsost machine where hyper-V server is installed
   
-    . **Password** : administrator password
+    . **Password** : admin password
 
 
 
