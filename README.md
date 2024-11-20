@@ -147,10 +147,11 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/68515337-c031-4080-9abb-963fa71cc88f)
 
 
-- Follow the loging procedure, by providing the code and provide your Azure account credentials. At the end you will be successfully loged in. Now you need to wait up to 10 minutes before being able to continue with the next step.
+- Follow the loging procedure, by providing the code and provide your Azure account credentials. At the end you will be successfully loged in. Now you need to wait up to 10 minutes before being able to continue with the next step. Now you're  successfully registered.
 
 
-![image](https://github.com/user-attachments/assets/e8ae8572-8439-457f-ae56-0af14d1ca730)
+![image](https://github.com/user-attachments/assets/a3bf9691-d5ef-46cf-bf72-1d349682fa56)
+
 
 
 ### Manage credentials and discovery sources
@@ -172,8 +173,10 @@ Before starting, ensure you have:
 
 - **Add Discovery** : Click on **Add discovery**, then clcik on **Add single item**. Now provide the following informations needed and then clcik on **Save**.
   
-    . **Discovery soure** : Choose **`Hyper-V host/ Clusters`**
+    . **Discovery soure** : Choose **`Hyper-V Host/ Cluster`**
+  
     . **IP address/ FQDN** : your server domain name or your server Ip address
+  
     . **Map credentrials** : Choose your previous server added
 
 
