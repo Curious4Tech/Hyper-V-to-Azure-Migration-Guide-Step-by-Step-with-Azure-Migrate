@@ -236,7 +236,8 @@ Before starting, ensure you have:
 - You need to create a group for you assessment, on the basics tab, click on **edit** just beside **assessment settings**
 
 
-![image](https://github.com/user-attachments/assets/f928186d-d2dc-414e-bb39-2273e5902eb3)
+
+![image](https://github.com/user-attachments/assets/83127cf0-4ac9-41a4-a082-8830ed56537e)
 
 
 
