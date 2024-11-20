@@ -211,7 +211,8 @@ Before starting, ensure you have:
 - Now you need to wait untill the discovery to finish. After a successfully finished, you can go back to the Azure portal for the rest.
 
 
-![image](https://github.com/user-attachments/assets/e679932e-63ed-47f0-8dfe-91022bbf4cf4)
+
+![image](https://github.com/user-attachments/assets/bbe477e0-cd2e-43b1-a806-e775a1768dd7)
 
 
 
