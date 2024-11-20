@@ -249,7 +249,7 @@ Before starting, ensure you have:
 
 
 
-- Selected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
+- **Selected servers to access** : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
 
 
 
