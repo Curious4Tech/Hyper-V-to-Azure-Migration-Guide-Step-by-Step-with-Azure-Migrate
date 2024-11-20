@@ -181,13 +181,15 @@ Before starting, ensure you have:
     . **Map credentrials** : Choose your previous server added
 
 
-![image](https://github.com/user-attachments/assets/cdf3f3c9-a388-4454-b105-e222b447ff5d)
+
+![image](https://github.com/user-attachments/assets/cf5527e5-b3a2-447c-9df8-58e15e20e740)
 
 
 - Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
 
 
-![image](https://github.com/user-attachments/assets/9cf8ec6c-31ac-49d0-bd59-6b1f2752cc08)
+
+![image](https://github.com/user-attachments/assets/4e0299d2-e10a-4832-850c-3ccc46a89fc7)
 
 
 - You can also do the same for the sql server but it is optional for this demo.
