@@ -241,7 +241,7 @@ Before starting, ensure you have:
 
 
 
-- In the new windows that is going to open, choose the right detail informations for your server including location , size, performance, storage  and so on and  then click on **Save**.
+- In the new windows that is going to open, choose the right detail informations for your migrating server including **Target settings, VM size , Pricing, Azure Hybrid Benefit  and Security**, then click on **Save**.
 
 
 
