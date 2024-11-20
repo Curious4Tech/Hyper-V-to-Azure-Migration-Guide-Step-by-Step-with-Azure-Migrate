@@ -335,6 +335,12 @@ Before starting, ensure you have:
 
 
 
+- Follow the wizard to register your server. At the end, click on **Finish**.
+
+
+![image](https://github.com/user-attachments/assets/9645a3ee-280c-421b-9c7f-48a0b811ea31)
+
+
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
