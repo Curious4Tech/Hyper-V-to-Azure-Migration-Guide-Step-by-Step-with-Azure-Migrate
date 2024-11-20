@@ -372,6 +372,12 @@ Before starting, ensure you have:
 
 
 
+- You can
+
+
+
+![image](https://github.com/user-attachments/assets/b81bc6b9-3880-4568-9041-60ce8e35da89)
+
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
