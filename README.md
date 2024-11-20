@@ -168,7 +168,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/defd3650-49f0-4c5a-bcde-29748fde80d9)
+![image](https://github.com/user-attachments/assets/c3b02da9-c9c7-4670-96d0-3e2de0dfe274)
+
 
 
 
@@ -182,14 +183,14 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/cf5527e5-b3a2-447c-9df8-58e15e20e740)
+![image](https://github.com/user-attachments/assets/e35df6f9-75df-4e4f-bbbe-effb8fcd6ab3)
+
+ 
+ - Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
 
 
-- Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
 
-
-
-![image](https://github.com/user-attachments/assets/4e0299d2-e10a-4832-850c-3ccc46a89fc7)
+![image](https://github.com/user-attachments/assets/fb298203-d0ca-4f7a-9209-6839cec9a5d2)
 
 
 - You can also do the same for the sql server but it is optional for this demo. So I disabled this option for the sake of this demo.
