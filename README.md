@@ -349,6 +349,13 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/6cf2e4ac-da4a-4624-a675-548f9fb575aa)
 
 
+- Go back to Azure portal, you should see your server connected, now click on **Finalize registration**
+
+
+
+![image](https://github.com/user-attachments/assets/47cc1dd9-7bfa-451d-a83a-4d52d980e9c2)
+
+
 
 ## Additional Resources
 - [Azure Migrate Documentation](https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-hyper-v)
