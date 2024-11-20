@@ -321,6 +321,20 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/f546f10f-0693-4831-958a-7c492402dd5b)
 
 
+- Execute the .exe file and follow the wizard to complete the installation. At the end, click on **Register**
+
+
+![image](https://github.com/user-attachments/assets/bfbeacf5-630a-4e21-9b6c-266941e38d0d)
+
+
+- Now browse your computer to select the file you have downloaded and then click on **Next**.
+
+
+
+![image](https://github.com/user-attachments/assets/42c3a2a8-ede1-4ab2-b489-8a2814084ab0)
+
+
+
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
 
