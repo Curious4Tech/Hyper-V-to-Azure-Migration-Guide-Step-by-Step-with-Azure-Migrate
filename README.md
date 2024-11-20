@@ -104,7 +104,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/a621e3c9-7b4b-4904-891d-9c9a761f48cd)
+![image](https://github.com/user-attachments/assets/af6add27-fc75-4fee-b554-55303becc60d)
+
 
 
 
