@@ -280,6 +280,18 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/af48a175-2ab7-405c-a792-cfd7f33ad4d4)
 
 
+- Click on **Build Business case** 
+
+
+
+![image](https://github.com/user-attachments/assets/bf37a599-dea3-421c-83f5-f1897f7666da)
+
+
+- Now provide all the infos depending on your needs.
+
+
+![image](https://github.com/user-attachments/assets/d16c8c03-ba89-454d-81ab-dbae381828ca)
+
 ## Post-Migration Tasks
 - **Test Functionality**: Test the functionality of the migrated VMs to ensure everything is working correctly.
 - **Clean Up**: Clean up any resources that are no longer needed on the Hyper-V host.
