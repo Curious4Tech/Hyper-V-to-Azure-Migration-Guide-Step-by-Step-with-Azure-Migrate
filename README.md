@@ -265,11 +265,12 @@ Before starting, ensure you have:
 
 
 
-- After successfully creation your server is ready as you can
+- After successfully assessment, your server is ready as you can.
 
 
 
-![image](https://github.com/user-attachments/assets/e9a62277-5a88-46b6-8c23-66176766d996)
+![image](https://github.com/user-attachments/assets/4bc91236-edc2-4d91-841a-464a2a2c9d4d)
+
 
 
 - If you clcik on the newly created group you should see something like this.
