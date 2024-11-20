@@ -243,7 +243,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/c27f5b41-7010-496e-9993-088f8486b941)
+![image](https://github.com/user-attachments/assets/90912ada-c0f9-462b-9e92-d58a328f421d)
+
 
 
 - Selected server to access : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
