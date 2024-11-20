@@ -51,7 +51,7 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/e2c7c0eb-7bb0-4a8b-a442-f61a5d3e0f0d)
+![image](https://github.com/user-attachments/assets/02f182b0-d051-4c7d-9ee3-b5c3effb09f2)
 
 
 
