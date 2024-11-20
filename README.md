@@ -246,7 +246,8 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/90912ada-c0f9-462b-9e92-d58a328f421d)
+![image](https://github.com/user-attachments/assets/4cbad94f-0196-4465-aca8-c3c9f6e4633b)
+
 
 
 
