@@ -192,11 +192,12 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/4e0299d2-e10a-4832-850c-3ccc46a89fc7)
 
 
-- You can also do the same for the sql server but it is optional for this demo.
+- You can also do the same for the sql server but it is optional for this demo. So I disabled this option for the sake of this demo.
 
 
 
-![image](https://github.com/user-attachments/assets/437164f4-3d71-4e4f-b16e-bdfe615f6b04)
+![image](https://github.com/user-attachments/assets/1b956969-2e03-440e-b5ac-5b0f2520d427)
+
 
 
 
