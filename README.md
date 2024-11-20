@@ -157,9 +157,9 @@ Before starting, ensure you have:
 
 - **Add credentials**: Click on **Add credentials** and provide your server admin credeantials and the click on **Save**.
 
-    . **Source type** : Choose **`Hyper-V host/ Clusters`**
+    . **Source type** : Choose **`Hyper-V Host/ Cluster`**
   
-    . **Friendly name** : Host name where you Hyper-V is install
+    . **Friendly name** : Host name where you Hyper-V is installed
   
     . **Username** : Administrator
   
