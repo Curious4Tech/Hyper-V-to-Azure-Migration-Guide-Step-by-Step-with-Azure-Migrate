@@ -251,7 +251,7 @@ Before starting, ensure you have:
 ![image](https://github.com/user-attachments/assets/68fb1922-e1ff-4cb7-9ce6-5260fd182924)
 
 
-From now on, you can start replicating and migrating your server to Azure 
+From now on, you can start replicating and migrating your server (vm) to Azure 
 
 
 ## Additional Resources
