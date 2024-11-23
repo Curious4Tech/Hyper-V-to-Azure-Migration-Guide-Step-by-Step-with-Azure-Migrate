@@ -206,7 +206,7 @@ Before starting, ensure you have:
 - In the new windows that is going to open, choose the right detail informations for your migrating server including **Target settings, VM size , Pricing, Azure Hybrid Benefit  and Security**, then click on **Save**.
 
 
-![image](https://github.com/user-attachments/assets/4cbad94f-0196-4465-aca8-c3c9f6e4633b)
+![image](https://github.com/user-attachments/assets/92b34eba-5831-468c-9128-1fd654aabaa8)
 
 
 - **Selected servers to access** : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
