@@ -260,3 +260,7 @@ From now on, you can start replicating and migrating your server (vm) to Azure
 - [Azure Migrate Documentation](https://learn.microsoft.com/en-us/azure/migrate/tutorial-migrate-hyper-v)
 
 
+## Conclusion
+
+This repository serves as a comprehensive guide and resource for seamlessly migrating Hyper-V servers to Microsoft Azure. By following the structured steps and utilizing the included tools and scripts, users can ensure a smooth transition of their virtualized workloads to the cloud.
+
