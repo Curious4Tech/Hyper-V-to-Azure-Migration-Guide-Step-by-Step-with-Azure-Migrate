@@ -1,5 +1,5 @@
 # Hyper-V-to-Azure-Migration-Guide-Step-by-Step-with-Azure-Migrate
-Comprehensive guide to migrating servers from Hyper-V to Azure using Azure Migrate. Covers pre-migration planning, Azure setup, replication, testing, and post-migration configuration. Ideal for IT professionals and cloud engineers transitioning workloads to Azure.
+Comprehensive guide to migrating servers from Hyper-V to Azure using Azure Migrate. Covers pre-migration planning, Azure setup, discovery, assessmet configuration. Ideal for IT professionals and cloud engineers transitioning workloads to Azure.
 
 
 # **Server Migration from Hyper-V to Azure**
@@ -23,7 +23,6 @@ Before starting, ensure you have:
 - **Create an Azure Migrate project**: In the Azure portal, create a new project under the "Migration and Modernization" tool.
 
 
-
 ![image](https://github.com/user-attachments/assets/06703932-564d-467d-bd69-ed5fe3e2d643)
 
 
@@ -36,16 +35,13 @@ Before starting, ensure you have:
 - Click on **Create** to finish your project creation
 
 
-
 ![image](https://github.com/user-attachments/assets/992828a2-3098-4bbb-a9f5-736077be7ffc)
-
 
 
 - **Verify Permissions**: Ensure your Azure account has the necessary permissions.
 
 ### Download and Configure the Azure Migrate Appliance
 - **Download the Appliance**: Download the Azure Migrate appliance from the Azure portal.
-
 
 
 ![image](https://github.com/user-attachments/assets/02932575-38e1-4a43-b6b4-df9512e01b96)
@@ -60,22 +56,18 @@ Before starting, ensure you have:
   . **Download Appliance**: There are options to download either a .VHD file (12GB) or a .zip file (500MB), with the download (here am downloading .zip, so I will use powershell for the installation process).
 
 
-
 ![image](https://github.com/user-attachments/assets/fbe688d9-e459-48f5-89c8-bd0dfc00247f)
 
 
 - **Install the Appliance**: Install the appliance on a Hyper-V host.
 
-
    . Unzip the file:
-
 
 
 ![image](https://github.com/user-attachments/assets/953e1376-35e1-4e79-a175-0612854e4d1d)
 
 
   . Open the powershell and move to the path where you unziped the appliance installation folder and run: **`.\AzureMigrateInstaller.ps1`**
-
 
 
 ![image](https://github.com/user-attachments/assets/aa6487dd-8237-4c87-b922-24a1b0441d76)
@@ -89,9 +81,7 @@ Before starting, ensure you have:
 - After successfully installation copy the url provided and  paste it on the web browser and then continue the procedure
 
 
-
 ![image](https://github.com/user-attachments/assets/af6add27-fc75-4fee-b554-55303becc60d)
-
 
 
 
@@ -108,13 +98,10 @@ Before starting, ensure you have:
   . Provide your project key, the key you have created before in the Azure portal and then click on **Verify**. You have to wait for some minutes (up to 5 minutes).
 
 
-
 ![image](https://github.com/user-attachments/assets/f5aa8357-eeb8-48dd-ae7e-50a3c66facae)
 
 
-  
   . After some minutes, you will have a pop-pup, just clcik **Refresh**
-
 
 
 ![image](https://github.com/user-attachments/assets/a4984372-0bf8-49f5-a157-8ee09dfc913a)
@@ -127,7 +114,6 @@ Before starting, ensure you have:
 
 
 - Click on **copy code and Login** on the new pop-pup windows that is gonna open.
-
 
 
 ![image](https://github.com/user-attachments/assets/68515337-c031-4080-9abb-963fa71cc88f)
@@ -153,9 +139,7 @@ Before starting, ensure you have:
     . **Password** : admin password
 
 
-
 ![image](https://github.com/user-attachments/assets/c3b02da9-c9c7-4670-96d0-3e2de0dfe274)
-
 
 
 
@@ -168,12 +152,10 @@ Before starting, ensure you have:
     . **Map credentrials** : Choose your previous server added
 
 
-
 ![image](https://github.com/user-attachments/assets/e35df6f9-75df-4e4f-bbbe-effb8fcd6ab3)
 
  
  - Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
-
 
 
 ![image](https://github.com/user-attachments/assets/fb298203-d0ca-4f7a-9209-6839cec9a5d2)
@@ -182,14 +164,10 @@ Before starting, ensure you have:
 - You can also do the same for the sql server but it is optional for this demo. So I disabled this option for the sake of this demo.
 
 
-
 ![image](https://github.com/user-attachments/assets/1b956969-2e03-440e-b5ac-5b0f2520d427)
 
 
-
-
 - Now you can click on **Start discovery** to start the discovery.
-
 
 
 ![image](https://github.com/user-attachments/assets/1c4a4195-0d3a-4ea5-adcb-1f30943fae0c)
@@ -198,9 +176,7 @@ Before starting, ensure you have:
 - Now you need to wait untill the discovery to finish. After a successfully finished, you can go back to the Azure portal for the rest.
 
 
-
 ![image](https://github.com/user-attachments/assets/bbe477e0-cd2e-43b1-a806-e775a1768dd7)
-
 
 
 ### Assess Hyper-V VMs
@@ -208,13 +184,10 @@ Before starting, ensure you have:
 - Go back to the Azure portal, then to **Azure migrate** and then your project to see the discovery.
 
 
-
 ![image](https://github.com/user-attachments/assets/aacedbaf-a58f-482b-a30d-ef6d12b57219)
 
 
-
 - As indicated, you will click on **Assess** and choose **Azure VM** to start assessing.
-
 
 
 ![image](https://github.com/user-attachments/assets/19ecc78d-f51e-455b-8ff7-3aeb74f56b98)
@@ -223,53 +196,40 @@ Before starting, ensure you have:
 - You need to create a group for you assessment, on the basics tab, click on **edit** just beside **assessment settings**
 
 
-
 ![image](https://github.com/user-attachments/assets/83127cf0-4ac9-41a4-a082-8830ed56537e)
-
 
 
 - In the new windows that is going to open, choose the right detail informations for your migrating server including **Target settings, VM size , Pricing, Azure Hybrid Benefit  and Security**, then click on **Save**.
 
 
-
 ![image](https://github.com/user-attachments/assets/4cbad94f-0196-4465-aca8-c3c9f6e4633b)
-
-
 
 
 - **Selected servers to access** : Create a new group by giving it a name, choose your appliance. Make sure your server that you want to migrate is checked and then proceed.
 
 
-
 ![image](https://github.com/user-attachments/assets/53f8d2b4-54b9-435f-bef5-6fb2e44e4db9)
-
 
 
 - Verify and create assessment : Review to see if everything is correct before clicking on **Review + create assessment**. If there is any change you want to make, you can clcik on **Previous**.
 
 
-
 ![image](https://github.com/user-attachments/assets/554a4c1f-53c6-4ada-88a7-5dc4adc72217)
-
 
 
 - After successfully assessment, your server is ready as you can.
 
 
-
 ![image](https://github.com/user-attachments/assets/4bc91236-edc2-4d91-841a-464a2a2c9d4d)
 
 
-
 - If you clcik on the newly created group you should see something like this.
-
 
 
 ![image](https://github.com/user-attachments/assets/af48a175-2ab7-405c-a792-cfd7f33ad4d4)
 
 
 - Click on **Build Business case** 
-
 
 
 ![image](https://github.com/user-attachments/assets/bf37a599-dea3-421c-83f5-f1897f7666da)
@@ -285,6 +245,9 @@ Before starting, ensure you have:
 
 
 ![image](https://github.com/user-attachments/assets/68fb1922-e1ff-4cb7-9ce6-5260fd182924)
+
+
+From now on, you can start replicating and migrating your server to Azure 
 
 
 ## Additional Resources
