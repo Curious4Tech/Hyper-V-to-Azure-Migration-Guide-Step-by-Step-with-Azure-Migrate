@@ -8,20 +8,6 @@ This guide provides a detailed step-by-step process for migrating a server from 
 
 ---
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Step-by-Step Guide](#step-by-step-guide)
-   - [Prepare Azure](#prepare-azure)
-   - [Download and Configure the Azure Migrate Appliance](#download-and-configure-the-azure-migrate-appliance)
-   - [Discover and Assess Hyper-V VMs](#discover-and-assess-hyper-v-vms)
-   - [Install Required Agents](#install-required-agents)
-   - [Enable Replication](#enable-replication)
-   - [Perform Test Migration](#perform-test-migration)
-   - [Perform Final Migration](#perform-final-migration)
-4. [Post-Migration Tasks](#post-migration-tasks)
-5. [Additional Resources](#additional-resources)
-
 ## Introduction
 This guide provides detailed steps to migrate a server from Hyper-V to Azure using Azure Migrate.
 
