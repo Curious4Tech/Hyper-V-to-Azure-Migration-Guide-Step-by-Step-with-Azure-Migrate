@@ -220,7 +220,7 @@ Before starting, ensure you have:
 - Verify and create assessment : Review to see if everything is correct before clicking on **Review + create assessment**. If there is any change you want to make, you can clcik on **Previous**.
 
 
-![image](https://github.com/user-attachments/assets/554a4c1f-53c6-4ada-88a7-5dc4adc72217)
+![image](https://github.com/user-attachments/assets/1d48bbe1-954a-4889-9d03-ab27b4230fc1)
 
 
 - After successfully assessment, your server is ready as you can.
