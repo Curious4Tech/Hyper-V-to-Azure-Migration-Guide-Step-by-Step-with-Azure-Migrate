@@ -226,7 +226,8 @@ Before starting, ensure you have:
 - After successfully assessment, your server is ready as you can.
 
 
-![image](https://github.com/user-attachments/assets/4bc91236-edc2-4d91-841a-464a2a2c9d4d)
+![image](https://github.com/user-attachments/assets/d6c7eecf-9e42-46ce-aa85-b719fd32a41f)
+
 
 
 - If you clcik on the newly created group you should see something like this.
