@@ -141,8 +141,7 @@ Before starting, ensure you have:
 
 
 
-![image](https://github.com/user-attachments/assets/c3b02da9-c9c7-4670-96d0-3e2de0dfe274)
-
+![image](https://github.com/user-attachments/assets/8a970e4b-26f7-44ca-9220-6b14c27f128f)
 
 
 - **Add Discovery** : Click on **Add discovery**, then clcik on **Add single item**. Now provide the following informations needed and then clcik on **Save**.
@@ -154,13 +153,16 @@ Before starting, ensure you have:
     . **Map credentrials** : Choose your previous server added
 
 
-![image](https://github.com/user-attachments/assets/e35df6f9-75df-4e4f-bbbe-effb8fcd6ab3)
+
+![image](https://github.com/user-attachments/assets/6a9d6222-4502-49ec-83e7-2a21cde52e55)
+
 
  
  - Successfully discovered. In case you have problem, allow the port **`5985`** in the firewall inboud rules.
 
 
-![image](https://github.com/user-attachments/assets/fb298203-d0ca-4f7a-9209-6839cec9a5d2)
+![image](https://github.com/user-attachments/assets/10adecc3-616e-4520-8c8c-fb394a42a854)
+
 
 
 - You can also do the same for the sql server but it is optional for this demo. So I disabled this option for the sake of this demo.
