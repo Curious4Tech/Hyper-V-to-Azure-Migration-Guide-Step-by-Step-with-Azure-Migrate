@@ -133,11 +133,12 @@ Before starting, ensure you have:
 
     . **Source type** : Choose **`Hyper-V Host/ Cluster`**
   
-    . **Friendly name** : Choose a name you want (e;g: **HypervServer**) it doesn't have obligatory to be the name of the host on which you Hyper-V is installed.
+    . **Friendly name** : Choose a name you want (e;g: **HypervServer**), it doesn't have obligatory to be the same name as the host on which your Hyper-V is installed.
   
     . **Username** : Admin username (e.g; **Administrator**) of hsost machine where hyper-V server is installed
   
     . **Password** : admin password
+
 
 
 ![image](https://github.com/user-attachments/assets/c3b02da9-c9c7-4670-96d0-3e2de0dfe274)
@@ -148,7 +149,7 @@ Before starting, ensure you have:
   
     . **Discovery soure** : Choose **`Hyper-V Host/ Cluster`**
   
-    . **IP address/ FQDN** : your server domain name or your server Ip address
+    . **IP address/ FQDN** : your server domain name or your server IP address
   
     . **Map credentrials** : Choose your previous server added
 
