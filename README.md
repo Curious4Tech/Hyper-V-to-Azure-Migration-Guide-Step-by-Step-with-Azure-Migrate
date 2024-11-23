@@ -35,7 +35,8 @@ Before starting, ensure you have:
 - Click on **Create** to finish your project creation
 
 
-![image](https://github.com/user-attachments/assets/992828a2-3098-4bbb-a9f5-736077be7ffc)
+![image](https://github.com/user-attachments/assets/30c234a3-a92c-4170-9dcb-f63b2015944d)
+
 
 
 - **Verify Permissions**: Ensure your Azure account has the necessary permissions.
